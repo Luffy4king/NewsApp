@@ -1,15 +1,22 @@
-# NewsApp-React-Native-Mobile-App
+# NewsApp - React Native Mobile App
 
 ![Image](https://cdn.dribbble.com/userupload/11230077/file/original-5bd1c582562508ab6d9e5fb52be12d6b.png?resize=1504x846)
 
-  
-  <p align="left">
-    <a href="https://www.youtube.com/channel/UCuJNJfjUo2i4c6n09hZTlBQ?sub_confirmation=1"><img alt="Youtube" title="Youtube"  src="https://img.shields.io/badge/-Subscribe-red?style=for-the-badge&logo=youtube&logoColor=white"/></a>
-    <p>
-      Watch the Tutorial on YouTube <a href="[https://www.youtube.com/playlist?list=PLvIpPQPabN8JtF9MLcI2UCcmXMENRgx-U](https://youtu.be/hnoullGuo74)" target="_blank">News App in React Native</a>
-    </p>
-    
-  </p>
+## Overview
+
+The **NewsApp** is a React Native application designed to deliver the latest news updates in real-time. This app is built with Expo and provides a seamless user experience with features like dark mode, offline reading, and category filtering.
+
+---
+
+## Features
+
+- **Live News Feed:** Stay updated with real-time news from reliable sources.
+- **Search Articles:** Find specific news stories with the in-app search.
+- **Category Sorting:** Explore news by categories like Health, Technology, and Sports.
+- **Dark Mode:** Enhanced user experience with light and dark themes.
+- **Offline Access:** Save articles for reading later, even without an internet connection.
+
+---
   
 
 ## Get Started
@@ -36,11 +43,25 @@ Like `npm start` / `yarn start`, but also attempts to open your app on a connect
 
 <br />
 
-💙 If you like this project, give it a ⭐ and share it with friends!
+API Integration
 
-<p align="left">
-  <a href="https://www.youtube.com/channel/UCuJNJfjUo2i4c6n09hZTlBQ?sub_confirmation=1"><img alt="Youtube" title="Youtube" src="https://img.shields.io/badge/-Subscribe-red?style=for-the-badge&logo=youtube&logoColor=white"/></a>
-  <a href="https://twitter.com/joestackss"><img alt="Twitter" title="Twitter" src="https://img.shields.io/badge/-Twitter-1DA1F2?style=for-the-badge&logo=twitter&logoColor=white"/></a>
-</p>
+This app fetches news data from a reliable third-party API (e.g., News API). To configure your API key:
 
-<a href="https://www.buymeacoffee.com/joestackss">☕ Buy me a coffee</a>
+1.Sign up at News API to obtain your API key.
+
+2.Create a .env file in the root of the project:
+
+REACT_APP_NEWS_API_KEY=your_api_key_here
+
+3.Restart the development server to apply changes.
+
+<br/>
+## Contributing
+*Contributions are welcome! Follow these steps to contribute:
+
+1.Fork the repository.
+2.Create a new branch for your feature/fix: git checkout -b feature-name.
+3.Commit your changes: git commit -m 'Add some feature'.
+4.Push to the branch: git push origin feature-name.
+5.Open a Pull Request.
+
